@@ -22,14 +22,10 @@ let valorDaCompra = parseFloat(prompt("Quanto deseja abastercer em dinheiro ?"))
 let litros = valorDaCompra / valorLitro
 alert(`o cliente abasteceu ${litros.toFixed(2)} de gasolina .`);
 
-                                    /* Segundo exercício 
 
-                    há algo de errado, a formula entregue pra que possamos usar
-                    nao dá o resultado esperado que esta pedindo no canvas,
-                    pede que o valor de entrada seja de 22 e entregue 76.1 e  
-                    o resultado que da é de 71.6 fui no google pesquisar 
-                    e o resultado da formula comfere 71.6. */
+                                    // Segundo exercício 
 
+            
 alert("este é o segundo exercício")  
 let c = parseFloat(prompt("Digite o valor em celsius !"));
 let f = (9 * c + 160) / 5 ;
@@ -74,6 +70,7 @@ alert(`a média dos valores é: ${res}`)
 
                                   // setimo exercício
 
+
  alert("este é o sétimo exercício")
  let num1 = parseInt(prompt("Digite um numero !"));
  let num2 = parseInt(prompt("Digite outro Numero !"));
@@ -81,7 +78,9 @@ alert(`a média dos valores é: ${res}`)
  alert(`O resto da divisão de ${num1} por ${num2} é : ${resul}`);
 
 
+
                                  // oitavo  exercício
+
 
 alert("este é o oitavo exercício")
 let quantidadeLetras = prompt("Digite uma Frase pra contarmos as letras");
@@ -91,8 +90,9 @@ alert(`a quantidade de letras da frase é : ${quantidade}`);
 
                                // nono  exercício
 
+
 alert("este é o nono exercício")
-let texto = "eeeeeeeeeOOOOOOOO"//(prompt("Digite um texto"))
+let texto =(prompt("Digite um texto"))
 alert(`a primeira letra é "${texto.charAt().toUpperCase()}" e a ultima é "${texto.slice(-1).toLocaleLowerCase()}"`);
 
 
