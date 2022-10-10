@@ -37,11 +37,11 @@ function clicar5(){
                                 //sexto exercício
 function clicar6(){
     alert("digite 5 numeros para tirar a média!")
-    let numero1 = parseFloat(prompt("digite um numero"));
-    let numero2 = parseFloat(prompt("digite um numero"));
-    let numero3 = parseFloat(prompt("digite um numero"));
-    let numero4 = parseFloat(prompt("digite um numero"));
-    let numero5 = parseFloat(prompt("digite um numero"));
+    let numero1 = parseFloat(prompt("digite o primeiro numero!"));
+    let numero2 = parseFloat(prompt("digite o segundo numero!"));
+    let numero3 = parseFloat(prompt("digite o terceiro numero!"));
+    let numero4 = parseFloat(prompt("digite o quarto numero!"));
+    let numero5 = parseFloat(prompt("digite o quinto numero!"));
     let res = (numero1 + numero2 +  numero3 +  numero4 +  numero5) / 5 ;
     alert(`a média dos valores é: ${res}`);
 }
